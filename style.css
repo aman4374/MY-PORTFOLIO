@@ -1,81 +1,26 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #140e96; /* Darker base background for glow effect */
+/* Styling for all buttons */
+button {
+    background-color: #c61414; /* Distinctive primary color */
+    color: #fff; /* Clear text contrast */
+    border: none; /* Remove default borders */
+    border-radius: 10px; /* Softer rounded corners */
+    padding: 10px 20px; /* Generous spacing */
+    font-size: 16px; /* Readable text size */
+    font-weight: bold; /* Assertive appearance */
+    cursor: pointer; /* Clear hover indication */
+    transition: all 0.2s ease-in-out; /* Smooth transitions */
+    text-shadow: 0 0 5px rgba(167, 15, 38, 0.5); /* Glowing text effect */
+    box-shadow: 0 0 10px rgba(145, 12, 12, 0.5); /* Glowing button effect */
   }
   
-  header {
-    background-color: #c61414;
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  /* Hover effects for interactive feedback */
+  button:hover {
+    background-color: #e54e4e; /* Brighter hover color */
+    box-shadow: 0 0 15px rgba(145, 12, 12, 0.7); /* Enhanced glow on hover */
   }
   
-  header h1 {
-    font-size: 24px;
-    margin: 0;
-  }
-  
-  nav {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  nav a {
-    color: #1fa733;
-    text-decoration: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: background-color 0.2s ease-in-out;
-    text-shadow: 0 0 5px rgba(96, 167, 15, 0.5); /* Text glow */
-    box-shadow: 0 0 10px rgba(145, 12, 12, 0.5); /* Button glow */
-  }
-  
-  nav a:hover {
-    background-color: rgba(71, 23, 41, 0.2);
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  main p {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  
-  section {
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #0855ef; /* Darker base background for glow effect */
-    box-shadow: 0 0 10px rgba(52, 34, 123, 0.2); /* Section glow */
-  }
-  
-  section h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  #portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  #portfolio .project {
-    width: 300px;
-    background-color: #320a26;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  #portfolio .project h3 {
-    font-size: 18px;
-    margin-bottom: 5px;
+  /* Active state for visual confirmation */
+  button:active {
+    transform: scale(0.95); /* Subtle visual feedback */
   }
   
