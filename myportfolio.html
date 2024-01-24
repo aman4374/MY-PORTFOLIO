@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <nav>
+      <button onclick="location.href='myportfolio.html'">Home</button>
+      <button onclick="location.href='about.html'">About</button>
+      <button onclick="location.href='aportfolio.html'">Portfolio</button>
+      <button onclick="location.href='contact.html'">Contact Us</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Welcome!</h2>
+      <p>**I'm Your Name, a passionate and skilled (Insert your primary skill) with a diverse background in (Mention your areas of expertise).** My love for (What motivates you?) drives me to create (What kind of value do you provide?).</p>
+      <p>Let's explore:</p>
+      <button onclick="location.href='about.html'">About Me</button>
+      <button onclick="location.href='aportfolio.html'">My Work</button>
+      <button onclick="location.href='contact.html'">Get in Touch</button>
+    </section>
+
+    <section id="about" style="display: none;">
+      <h2>About Me</h2>
+      <p>(Write a brief description of yourself, your journey, and your professional goals)</p>
+      <ul>
+        <li>**Skills:** (List your key skills)</li>
+        <li>**Experience:** (Mention your relevant work experience or projects)</li>
+        <li>**Interests:** (Share your hobbies or passions)</li>
+      </ul>
+    </section>
+
+    <section id="portfolio" style="display: none;">
+      <h2>Portfolio</h2>
+      </section>
+
+    <section id="contact" style="display: none;">
+      <h2>Contact Me</h2>
+      <p>(Provide your contact information, including email, social media links, or a contact form)</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Your Name 2024</p>
+  </footer>
+
+  <script>
+    // Hide all sections except Home by default
+    const sections = document.querySelectorAll("section");
+    for (const section of sections) {
+      if (section.id !== "home") {
+        section.style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>
