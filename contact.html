@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    
+    , initial-scale=1.0">
+    <title>Contact Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div style = "display: flex;
+        flex-direction: row;
+        ;">
+    
+        <div style = "flex: 1"></div>
+            <nav style = "display: inline-block;
+            align-items: end;">
+              <button onclick="location.href='index.html'">Home</button>
+              <button onclick="location.href='about.html'">About</button>
+              <button onclick="location.href='portfolio.html'">Portfolio</button>
+              <button onclick="location.href='contact.html'">Contact Me</button>
+              
+            </nav>
+            <div style = "width: 100px"></div>
+        </div>
+        
+      </header>
+
+    
+
+    <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6478.196589465609!2d81.22703232207503!3d26.21878578705047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sTransit%20stations!5e1!3m2!1sen!2sin!4v1706158463451!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+
+        <a href="https://www.instagram.com/_aman_4374/" target="_blank" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+            <a href="https://www.instagram.com/_aman_4374/" class="contact-link">Aman Trivedi</a>
+          </a>
+          <br>
+    
+          <a href="https://www.instagram.com/_aman_4374/" target="_blank" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+            <a href="https://www.linkedin.com/in/aman-trivedi-2ab82829b/" class="contact-link">Aman Trivedi</a>
+            </a>
+
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+      
+
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

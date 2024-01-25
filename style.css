@@ -24,3 +24,11 @@ button {
     transform: scale(0.95); /* Subtle visual feedback */
   }
   
+
+  .contact-list p {
+    display: inline-block;
+  }
+
+  .contact-title {
+    display: inline-block;
+  }
