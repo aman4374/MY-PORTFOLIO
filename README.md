@@ -25,3 +25,4 @@ To view this portfolio locally or contribute to it, follow these steps:
 - index.html: Main HTML file containing the structure and content of the portfolio.
 - style.css: CSS file for styling the portfolio.
 
+Author : Aman Trivedi
